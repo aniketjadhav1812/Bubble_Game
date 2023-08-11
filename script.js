@@ -1,4 +1,4 @@
-var score = 0;
+let score = 0;
 let clicked;
 function makeBubble() {
     let clutter = "";
