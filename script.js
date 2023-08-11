@@ -16,7 +16,7 @@ function makeBubble() {
     document.querySelector("#pbtm").innerHTML = clutter;
 }
 function runTimer() {
-    let timer = 5;
+    let timer = 60;
     let timeInterval = setInterval(function () {
         if (timer > 0) {
             timer--;
