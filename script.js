@@ -1,5 +1,8 @@
-let score = 0;
+var score = 0;
 let clicked;
+function StopLoad(){
+    document.querySelector("#loading").style.display = 'none';
+}
 function makeBubble() {
     let clutter = "";
     let tl = gsap.timeline();

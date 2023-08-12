@@ -12,6 +12,18 @@ html,body{
     width: 100%;
     height: 100%;
 }
+#loading{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(184, 123, 241);
+    z-index: 999;
+}
+#loading img{
+    width: 8vh;
+}
 
 #main{
     height: 100%;
@@ -42,7 +54,7 @@ html,body{
     align-items: center;
     width: 20%;
     justify-content: space-evenly;
-    font-family:  sans-serif;
+    font-family:  'a';
     /* background-color: red; */
     gap: 10px;
 }
@@ -96,4 +108,30 @@ html,body{
 }
 .bubble:hover{
     background: rgba(131, 53, 205, 0.94);
+}
+@media (max-width:600px) {
+    #panel{
+        height: 95%;
+        width: 90%;
+    }
+    #ptop{
+        flex-direction: column;
+        align-items: normal;
+        height: 90px;
+    }
+    .elem{
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 25px;
+    }
+    #timeOver{
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+    .bubble{
+        height: 47px;
+        width: 47px;
+    }
+    
 }
