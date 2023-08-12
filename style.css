@@ -4,6 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: 'a';
+    src: url(./CascadiaCode.ttf);
+}
 html,body{
     width: 100%;
     height: 100%;
@@ -45,7 +49,7 @@ html,body{
 .elem h2{
     font-size: 22px;
     font-weight: 700;
-    font-family: 'Cascadia code';
+    font-family: 'a';
 }
 .box{
     display: flex;
@@ -53,7 +57,7 @@ html,body{
     background-color: white;
     padding: 5px 10px;
     border-radius: 5px;
-    font-family: 'Cascadia code';
+    font-family: 'a';
 }
 #pbtm{
     transform: translateY(-100%);
@@ -74,7 +78,7 @@ html,body{
     align-items: center;
     font-size: 45px;
     letter-spacing: 13px;
-    font-family: 'Baloo Bhai 2', sans-serif;
+    font-family: 'a';
     text-align: center ;
     text-transform: uppercase;
 }
@@ -85,7 +89,7 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Cascadia code';
+    font-family: 'a';
     font-weight: 800;
     cursor: pointer;
     background-color: rgb(170 84 249);
